@@ -2,7 +2,7 @@
 id: 4c98bf7a-7e61-4cf2-9f36-f3deed0c09ae
 title: Dendron
 desc: "A Hierarchical note taking extension for VSCode"
-updated: 1609129956353
+updated: 1609147275940
 created: 1609124719874
 ---
 
@@ -63,7 +63,7 @@ I've use "11ty", since I'm a fanboy of Node.js not Ruby.
   ...
   "script": {
     "start": "dendron-cli buildSiteV2 --wsRoot . --stage dev --serve",
-    "publish": "dendron-cli buildSiteV2 --wsRoot . --stage prod"
+    "build": "dendron-cli buildSiteV2 --wsRoot . --stage prod"
   },
   ...
   ```
@@ -88,7 +88,7 @@ I've use "11ty", since I'm a fanboy of Node.js not Ruby.
   siteRootDir: docs
   gh_edit_repository: "https://github.com/ilumin/notes"
   logo: "vault/assets/images/logo.svg"
-  siteUrl: "https://ilumin.github.com/notes"
+  siteUrl: "https://ilumin.dev"
   siteProtocol: https
   title: "ilumin's Digital Garden"
   author: "ilumin"
@@ -96,8 +96,7 @@ I've use "11ty", since I'm a fanboy of Node.js not Ruby.
   description: "ilumin don't remember and don't want to loose all memory, ilumin'll jot down and plant in this digital garden."
   usePrettyRefs: true
 
-  githubCname: "inwtunjai.com"
-  assetsPrefix: "notes"
+  githubCname: "ilumin.dev"
   gh_edit_link: false
   ```
 
@@ -105,3 +104,5 @@ I've use "11ty", since I'm a fanboy of Node.js not Ruby.
 
 - [Dendron Publishing V2](https://dendron.so/notes/857936de-1bd5-4666-8ea9-a218d426c7ec.html)
 - [Mixed content error when using github pages with custom domain](https://stackoverflow.com/questions/46672558/mixed-content-error-when-using-github-pages-with-custom-domain)
+- [Managing a custom domain for your Github Pages site](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
+- [Using custom domain for GitHub pages](https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a)
