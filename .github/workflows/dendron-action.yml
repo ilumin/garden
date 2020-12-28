@@ -18,10 +18,13 @@ jobs:
       - name: Build pod
         run: npm run dendron-cli -- buildSiteV2 --wsRoot .  --stage prod
 
+      - name: Debug
+        run: ls -la
+
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_branch: pages
           publish_dir: docs
           force_orphan: true
