@@ -1,5 +1,3 @@
 node_modules/
 build/
-/docs/assets/
-/docs/notes/
-/docs/_site/
+docs/

@@ -8,9 +8,9 @@ site:
     - books
     - notes
   siteRootDir: docs
-  gh_edit_repository: "https://github.com/ilumin/garden"
+  gh_edit_repository: "https://github.com/ilumin.github.io"
   logo: "vault/assets/images/logo.svg"
-  siteUrl: "https://ilumin.github.com/garden"
+  siteUrl: "https://ilumin.dev"
   siteProtocol: https
   title: "ilumin's Digital Garden"
   author: "ilumin"
@@ -19,6 +19,6 @@ site:
   usePrettyRefs: true
 
   # optional config for custom github page repo
-  githubCname: "inwtunjai.com"
+  githubCname: "ilumin.dev"
   assetsPrefix: "notes"
   gh_edit_link: false

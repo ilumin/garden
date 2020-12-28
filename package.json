@@ -7,9 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "dendron-cli": "dendron-cli",
     "start": "dendron-cli buildSiteV2 --wsRoot .  --stage dev --serve",
-    "publish": "dendron-cli buildSiteV2 --wsRoot . --stage prod"
+    "build": "dendron-cli buildSiteV2 --wsRoot . --stage prod"
   },
   "keywords": [],
   "author": "ilumin",

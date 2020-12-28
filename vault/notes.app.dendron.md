@@ -2,7 +2,7 @@
 id: 4c98bf7a-7e61-4cf2-9f36-f3deed0c09ae
 title: Dendron
 desc: "A Hierarchical note taking extension for VSCode"
-updated: 1609126162000
+updated: 1609129956353
 created: 1609124719874
 ---
 
@@ -104,3 +104,4 @@ I've use "11ty", since I'm a fanboy of Node.js not Ruby.
 ## Read more
 
 - [Dendron Publishing V2](https://dendron.so/notes/857936de-1bd5-4666-8ea9-a218d426c7ec.html)
+- [Mixed content error when using github pages with custom domain](https://stackoverflow.com/questions/46672558/mixed-content-error-when-using-github-pages-with-custom-domain)
