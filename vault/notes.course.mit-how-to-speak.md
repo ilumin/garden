@@ -1,7 +1,10 @@
 ---
 id: 08286ae2-2ee9-4a41-aca1-05935f65b050
 title: MIT How to Speak by Patrick Winston
-desc: "Patrick Winston's How to Speak talk has been an MIT tradition for over 40 years. Offered every January, the talk is intended to improve your speaking ability in critical situations by teaching you a few heuristic rules."
+desc: >-
+  Patrick Winston's How to Speak talk has been an MIT tradition for over 40
+  years. Offered every January, the talk is intended to improve your speaking
+  ability in critical situations by teaching you a few heuristic rules.
 updated: 1609124670887
 created: 1609124623437
 ---

@@ -1,7 +1,7 @@
 ---
 id: 4c98bf7a-7e61-4cf2-9f36-f3deed0c09ae
 title: Dendron
-desc: "A Hierarchical note taking extension for VSCode"
+desc: A Hierarchical note taking extension for VSCode
 updated: 1609148491066
 created: 1609124719874
 ---
