@@ -1,11 +1,24 @@
 version: 1
 vaults:
-    -
-        fsPath: vault
+  - fsPath: vault
 site:
-    copyAssets: true
-    siteHierarchies:
-        - root
-    siteRootDir: docs
-    siteProtocol: https
-    usePrettyRefs: true
+  copyAssets: true
+  siteHierarchies:
+    # - root
+    - books
+    - notes
+  siteRootDir: docs
+  gh_edit_repository: "https://github.com/ilumin/garden"
+  logo: "vault/assets/images/logo.svg"
+  siteUrl: "https://ilumin.github.com/garden"
+  siteProtocol: https
+  title: "ilumin's Digital Garden"
+  author: "ilumin"
+  twitter: "ilumin"
+  description: "ilumin don't remember but don't forget, ilumin jot down and plant in this digital garden."
+  usePrettyRefs: true
+
+  # optional config for custom github page repo
+  githubCname: "inwtunjai.com"
+  assetsPrefix: "notes"
+  gh_edit_link: false
