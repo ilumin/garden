@@ -19,3 +19,4 @@ site:
   # optional config for custom github page repo
   githubCname: "ilumin.dev"
   gh_edit_link: false
+  assetsPrefix: "/"
