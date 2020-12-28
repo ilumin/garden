@@ -4,7 +4,6 @@ vaults:
 site:
   copyAssets: true
   siteHierarchies:
-    # - root
     - books
     - notes
   siteRootDir: docs
@@ -20,5 +19,5 @@ site:
 
   # optional config for custom github page repo
   githubCname: "ilumin.dev"
-  assetsPrefix: "notes"
   gh_edit_link: false
+  siteProtocol: "https"
