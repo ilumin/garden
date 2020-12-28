@@ -4,8 +4,7 @@ vaults:
 site:
   copyAssets: true
   siteHierarchies:
-    - books
-    - notes
+    - root
   siteRootDir: docs
   gh_edit_repository: "https://github.com/ilumin.github.io"
   logo: "vault/assets/images/logo.svg"

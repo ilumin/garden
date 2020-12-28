@@ -2,7 +2,7 @@
 id: 4c98bf7a-7e61-4cf2-9f36-f3deed0c09ae
 title: Dendron
 desc: "A Hierarchical note taking extension for VSCode"
-updated: 1609147275940
+updated: 1609148491066
 created: 1609124719874
 ---
 
@@ -93,12 +93,19 @@ I've use "11ty", since I'm a fanboy of Node.js not Ruby.
   title: "ilumin's Digital Garden"
   author: "ilumin"
   twitter: "ilumin"
-  description: "ilumin don't remember and don't want to loose all memory, ilumin'll jot down and plant in this digital garden."
+  description: "ilumin doesn't remember but doesn't want to loose all memory either, ilumin'll jot down any thought in ilumin's digital garden."
   usePrettyRefs: true
 
   githubCname: "ilumin.dev"
   gh_edit_link: false
   ```
+
+- after published, we need to setting up our repository config to host for our Github Pages
+  by goto `Settings / Options / GitHub Pages` and set
+  - branch: `pages`
+  - folder: `/root`
+  - custom domain (optional if you've registered custom domain for Github Pages)
+  - enforces HTTPS
 
 ## Read more
 
