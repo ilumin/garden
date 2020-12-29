@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "dendron-cli buildSiteV2 --wsRoot .  --stage dev --serve",
+    "start": "dendron-cli buildSiteV2 --wsRoot . --stage dev --serve --enginePort `cat .dendron.port`",
     "build": "dendron-cli buildSiteV2 --wsRoot . --stage prod"
   },
   "keywords": [],

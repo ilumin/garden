@@ -4,6 +4,7 @@ node_modules/
 # complied site
 build/
 docs/
+docs-backup/
 
 # local development
 .dendron.port
