@@ -7,7 +7,7 @@ site:
     - root
   siteRootDir: docs
   gh_edit_repository: "https://github.com/ilumin.github.io"
-  logo: "vault/assets/images/logo.svg"
+  logo: "vault/assets/images/journal-whills-solid.svg"
   siteUrl: "https://ilumin.dev"
   siteProtocol: https
   title: "ilumin's Digital Garden"
